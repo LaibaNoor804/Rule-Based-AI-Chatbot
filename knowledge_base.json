@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "yo"
+      ],
+      "responses": [
+        "Hi there! How can I help you today?",
+        "Hello! Nice to see you.",
+        "Hey! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "wellbeing",
+      "patterns": [
+        "how are you",
+        "how are you doing",
+        "how is it going",
+        "whats up"
+      ],
+      "responses": [
+        "I'm just a bunch of clean logic, but I'm doing great! How about you?",
+        "Running smoothly, thanks for asking!"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "whats your name"
+      ],
+      "responses": [
+        "I'm RuleBot, your friendly rule-based assistant.",
+        "You can call me RuleBot!"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who made you",
+        "who created you",
+        "who built you"
+      ],
+      "responses": [
+        "I was built as part of the DecodeLabs Industrial Training Kit, Project 1."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "commands",
+        "options"
+      ],
+      "responses": [
+        "Try asking things like: hello, how are you, what is your name, or tell me a joke. Type 'teach:' to add your own custom response!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem at all!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "I would tell you a UDP joke, but you might not get it."
+      ]
+    },
+    {
+      "tag": "smalltalk_weather",
+      "patterns": [
+        "how is the weather",
+        "is it raining",
+        "whats the weather like"
+      ],
+      "responses": [
+        "I can't check live weather yet, but I hope it's nice where you are!"
+      ]
+    },
+    {
+      "tag": "custom_8",
+      "patterns": [
+        "which subject i should choose in artificial intelligence:"
+      ],
+      "responses": [
+        "Agentic ai :"
+      ]
+    },
+    {
+      "tag": "custom_9",
+      "patterns": [
+        "which subject i should choose in artificial intelligence:"
+      ],
+      "responses": [
+        "Agentic ai :"
+      ]
+    }
+  ]
+}
